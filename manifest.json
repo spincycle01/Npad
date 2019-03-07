@@ -1,0 +1,14 @@
+  {
+  "manifest_version" : 2,
+  "name" : "NoteyPad",
+  "version" : "1.0",
+  "description" : "Write your thoughts down while surfin",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./main.js"]
+    }
+  ]
+}
+
+
